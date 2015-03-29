@@ -24,7 +24,7 @@ int main(){
 	int array[] = {2,6,7,1,9,4,5,1};
 	quickSort(array,0,array.length());
 	for(int i = 0 ; i < array.length() ; ++i){
-		cout << array[i] << "endl";
+		cout << array[i] << endl;
 	}
 
 }
